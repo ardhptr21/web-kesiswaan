@@ -1,6 +1,6 @@
 <?php
 
-namespace App\View\Components;
+namespace App\View\Components\Nav;
 
 use Illuminate\View\Component;
 
@@ -25,6 +25,6 @@ class NavDropdown extends Component
      */
     public function render()
     {
-        return view('components.nav-dropdown');
+        return view('components.nav.nav-dropdown');
     }
 }

@@ -4,19 +4,17 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class NavItem extends Component
+class Accordion extends Component
 {
-    public string $text;
-    public string $link;
+    public string $title;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct(string $text, string $link = "#")
+    public function __construct(string $title)
     {
-        $this->text = $text;
-        $this->link = $link;
+        $this->title = $title;
     }
 
     /**
@@ -26,6 +24,6 @@ class NavItem extends Component
      */
     public function render()
     {
-        return view('components.nav-item');
+        return view('components.accordion');
     }
 }
