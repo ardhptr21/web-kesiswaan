@@ -110,5 +110,73 @@
             </x-accordion>
         </div>
 
+        <div class="w-full mx-auto my-5 mb-10 border-b">
+            <h3 class="text-2xl font-medium text-gray-800">Tugas Kesiswaan</h3>
+            <p class="my-3 text-gray-600">
+                Berikut adalah beberapa tugas dari Kesiswaan
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4">
+            <div class="space-y-3 text-center">
+                <i class="fa-solid fa-calendar-days fa-3x"></i>
+                <h4 class="text-gray-600">Menyusun program pembinaan kesiswaan</h4>
+            </div>
+            <div class="space-y-3 text-center">
+                <i class="fa-solid fa-people-robbery fa-3x"></i>
+                <h4 class="text-gray-600">Melaksanakan bimbingan, pengarahan dan pengendalian kegiatan siswa</h4>
+            </div>
+            <div class="space-y-3 text-center">
+                <i class="fa-solid fa-people-roof fa-3x"></i>
+                <h4 class="text-gray-600">Membina pengurus OSIS dalam berorganisasi</h4>
+            </div>
+            <div class="space-y-3 text-center">
+                <i class="fa-solid fa-calendar fa-3x"></i>
+                <h4 class="text-gray-600">Menyusun program dan jadwal pembinaan secara berkala dan insidental</h4>
+            </div>
+            <div class="space-y-3 text-center">
+                <i class="fa-solid fa-users-between-lines fa-3x"></i>
+                <h4 class="text-gray-600">Membina dan melaksanakan koordinasi pelaksanaan keamanan, kebersihan, ketertiban,
+                    keindahan,
+                    kerindangan, kekeluargaan, dan ketaqwaan</h4>
+            </div>
+            <div class="space-y-3 text-center">
+                <i class="fa-solid fa-bullseye fa-3x"></i>
+                <h4 class="text-gray-600">Melaksanakan pemilihan calon siswa teladan dan calon siswa penerima bea siswa
+                </h4>
+            </div>
+            <div class="space-y-3 text-center">
+                <i class="fa-solid fa-users-viewfinder fa-3x"></i>
+                <h4 class="text-gray-600">Mengadakan pemilihan siswa untuk mewakili sekolah dalam kegiatan di luar sekolah
+                </h4>
+            </div>
+            <div class="space-y-3 text-center">
+                <i class="fa-solid fa-arrows-down-to-people fa-3x"></i>
+                <h4 class="text-gray-600">Mengatur mutasi siswa</h4>
+            </div>
+            <div class="space-y-3 text-center">
+                <i class="fa-solid fa-list-check fa-3x"></i>
+                <h4 class="text-gray-600">Menyusun program kegiatan ekstrakurikuler</h4>
+            </div>
+            <div class="space-y-3 text-center">
+                <i class="fa-solid fa-calendar-check fa-3x"></i>
+                <h4 class="text-gray-600">Menyusun laporan pelaksanaan kesiswaan secara berkala</h4>
+            </div>
+        </div>
+    </x-basic.section>
+
+    <x-basic.section>
+        <x-basic.section-title title="Ekstrakurikuler Unggulan" />
+
+        <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
+            <x-card-ekskul img="/images/ekskul/ambalan.jpg" title="Ambalan" />
+            <x-card-ekskul img="/images/ekskul/paskibra.jpg" title="Paskibra" />
+            <x-card-ekskul img="/images/ekskul/dance.jpg" title="Dance" />
+            <x-card-ekskul img="/images/ekskul/band.jpg" title="Band" />
+            <x-card-ekskul img="/images/ekskul/tari.jpg" title="Tari" />
+            <x-card-ekskul img="/images/ekskul/theater.jpg" title="Theater" />
+            <x-card-ekskul img="/images/ekskul/karawitan.jpg" title="Karawitan" />
+            <x-card-ekskul img="/images/ekskul/pmr.jpg" title="Palang Merah Remaja" />
+        </div>
     </x-basic.section>
 @endsection
