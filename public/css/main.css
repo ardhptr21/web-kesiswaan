@@ -1,0 +1,13 @@
+.splide__slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.splide__progress {
+    background: #ccc;
+}
+.splide__progress-bar {
+    height: 8px;
+    transition: width 400ms ease;
+    width: 0;
+}

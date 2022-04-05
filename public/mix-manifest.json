@@ -1,5 +1,6 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css",
+    "/css/splide.css": "/css/splide.css",
+    "/css/tailwind.css": "/css/tailwind.css",
     "/css/fontawesome.css": "/css/fontawesome.css"
 }

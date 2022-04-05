@@ -12,7 +12,10 @@ const mix = require("laravel-mix");
  */
 
 mix.js("resources/js/app.js", "public/js")
-    .postCss("resources/css/app.css", "public/css", [require("tailwindcss")])
-    .sass("resources/sass/app.scss", "public/css/fontawesome.css")
+    .postCss("resources/css/tailwind.css", "public/css", [
+        require("tailwindcss"),
+    ])
+    .sass("resources/sass/fontawesome.scss", "public/css")
+    .css("resources/css/splide.css", "public/css")
     .browserSync("127.0.0.1:8000")
     .disableSuccessNotifications();
