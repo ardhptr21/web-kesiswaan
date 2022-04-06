@@ -169,14 +169,35 @@
         <x-basic.section-title title="Ekstrakurikuler Unggulan" />
 
         <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
-            <x-card-ekskul img="/images/ekskul/ambalan.jpg" title="Ambalan" />
-            <x-card-ekskul img="/images/ekskul/paskibra.jpg" title="Paskibra" />
-            <x-card-ekskul img="/images/ekskul/dance.jpg" title="Dance" />
-            <x-card-ekskul img="/images/ekskul/band.jpg" title="Band" />
-            <x-card-ekskul img="/images/ekskul/tari.jpg" title="Tari" />
-            <x-card-ekskul img="/images/ekskul/theater.jpg" title="Theater" />
-            <x-card-ekskul img="/images/ekskul/karawitan.jpg" title="Karawitan" />
-            <x-card-ekskul img="/images/ekskul/pmr.jpg" title="Palang Merah Remaja" />
+            <x-card.card-ekskul img="/images/ekskul/ambalan.jpg" title="Ambalan" />
+            <x-card.card-ekskul img="/images/ekskul/paskibra.jpg" title="Paskibra" />
+            <x-card.card-ekskul img="/images/ekskul/dance.jpg" title="Dance" />
+            <x-card.card-ekskul img="/images/ekskul/band.jpg" title="Band" />
+            <x-card.card-ekskul img="/images/ekskul/tari.jpg" title="Tari" />
+            <x-card.card-ekskul img="/images/ekskul/theater.jpg" title="Theater" />
+            <x-card.card-ekskul img="/images/ekskul/karawitan.jpg" title="Karawitan" />
+            <x-card.card-ekskul img="/images/ekskul/pmr.jpg" title="Palang Merah Remaja" />
+        </div>
+
+        <div class="mt-10 text-center">
+            <x-button.btn-rounded>More...</x-button.btn-rounded>
+        </div>
+    </x-basic.section>
+
+    <x-basic.section>
+        <x-basic.section-title title="Latest News" />
+
+        <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+            @for ($i = 0; $i < 6; $i++)
+                <x-card.card-news img="https://source.unsplash.com/400x30{{ $i }}?school"
+                    title="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                    short="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eget tincidunt consectetur, urna"
+                    date="20 April 2020" />
+            @endfor
+        </div>
+
+        <div class="mt-10 text-center">
+            <x-button.btn-rounded>More...</x-button.btn-rounded>
         </div>
     </x-basic.section>
 @endsection

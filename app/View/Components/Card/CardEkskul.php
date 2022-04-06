@@ -1,6 +1,6 @@
 <?php
 
-namespace App\View\Components;
+namespace App\View\Components\Card;
 
 use Illuminate\View\Component;
 
@@ -26,6 +26,6 @@ class CardEkskul extends Component
      */
     public function render()
     {
-        return view('components.card-ekskul');
+        return view('components.card.card-ekskul');
     }
 }

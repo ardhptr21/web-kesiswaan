@@ -20,6 +20,9 @@
         @yield('content')
     </main>
 
+    <footer>
+        @include('partials.footer')
+    </footer>
 
     @include('partials.scripts')
 </body>
